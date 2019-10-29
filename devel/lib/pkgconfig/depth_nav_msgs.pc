@@ -1,0 +1,8 @@
+prefix=/home/robot-workstation/mapping/devel
+
+Name: depth_nav_msgs
+Description: Description of depth_nav_msgs
+Version: 1.0.0
+Cflags: -I/home/robot-workstation/mapping/devel/include
+Libs: -L/home/robot-workstation/mapping/devel/lib 
+Requires: message_runtime geometry_msgs std_msgs

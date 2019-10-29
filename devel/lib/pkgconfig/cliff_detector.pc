@@ -1,0 +1,8 @@
+prefix=/home/robot-workstation/mapping/devel
+
+Name: cliff_detector
+Description: Description of cliff_detector
+Version: 1.0.1
+Cflags: -I/home/robot-workstation/mapping/devel/include -I/home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector/include
+Libs: -L/home/robot-workstation/mapping/devel/lib -lCliffDetector -lCliffDetectorNode -lCliffDetectorNodelet
+Requires: roscpp dynamic_reconfigure image_geometry image_transport nodelet sensor_msgs depth_nav_msgs

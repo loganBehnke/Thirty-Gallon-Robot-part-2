@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robot-workstation/mapping/devel/setup.sh
