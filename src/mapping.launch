@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find openni_launch)/launch/openni.launch" />
+    <include file="$(find laserscan_kinect)/launch/laserscan.launch" />
+    <include file="$(find odom_publisher)/launch/odom_publisher.launch"/>
+    <include file="$(find robot_setup_tf)/launch/tf_setup.launch"/>
+</launch>

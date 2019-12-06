@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o  -o /home/robot-workstation/mapping/devel/lib/openslam_gmapping/configfile_test -rdynamic /home/robot-workstation/mapping/devel/lib/libconfigfile.so -Wl,-rpath,/home/robot-workstation/mapping/devel/lib: 

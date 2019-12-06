@@ -38,6 +38,9 @@ Boost_DATE_TIME_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_date_t
 //Boost date_time library (release)
 Boost_DATE_TIME_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_date_time.so
 
+//The directory containing a CMake configuration file for Boost.
+Boost_DIR:PATH=Boost_DIR-NOTFOUND
+
 //Boost filesystem library (debug)
 Boost_FILESYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 
@@ -70,6 +73,12 @@ Boost_SERIALIZATION_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_se
 
 //Boost serialization library (release)
 Boost_SERIALIZATION_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_serialization.so
+
+//Boost signals library (debug)
+Boost_SIGNALS_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_signals.so
+
+//Boost signals library (release)
+Boost_SIGNALS_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_signals.so
 
 //Boost system library (debug)
 Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_system.so
@@ -584,6 +593,9 @@ UBUNTU:BOOL=TRUE
 UBUNTU_XENIAL:BOOL=TRUE
 
 //Path to a file.
+_file_name:FILEPATH=/home/robot-workstation/mapping/src/slam_gmapping/gmapping/test/basic_localization_laser_different_beamcount.test
+
+//Path to a file.
 _gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
 
 //Path to a file.
@@ -621,9 +633,6 @@ cliff_detector_SOURCE_DIR:STATIC=/home/robot-workstation/mapping/src/depth_nav_t
 
 //The directory containing a CMake configuration file for cmake_modules.
 cmake_modules_DIR:PATH=/opt/ros/kinetic/share/cmake_modules/cmake
-
-//Dependencies for target
-configfile_LIB_DEPENDS:STATIC=
 
 //The directory containing a CMake configuration file for costmap_2d.
 costmap_2d_DIR:PATH=/opt/ros/kinetic/share/costmap_2d/cmake
@@ -680,6 +689,12 @@ genpy_DIR:PATH=/opt/ros/kinetic/share/genpy/cmake
 geometry_msgs_DIR:PATH=/opt/ros/kinetic/share/geometry_msgs/cmake
 
 //Value Computed by CMake
+gmapping_BINARY_DIR:STATIC=/home/robot-workstation/mapping/build/slam_gmapping/gmapping
+
+//Value Computed by CMake
+gmapping_SOURCE_DIR:STATIC=/home/robot-workstation/mapping/src/slam_gmapping/gmapping
+
+//Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/robot-workstation/mapping/build/gtest
 
 //Dependencies for the target
@@ -693,9 +708,6 @@ gmock_build_tests:BOOL=OFF
 
 //Dependencies for the target
 gmock_main_LIB_DEPENDS:STATIC=general;-lpthread;
-
-//Dependencies for the target
-gridfastslam_LIB_DEPENDS:STATIC=general;scanmatcher;general;log;general;sensor_range;general;sensor_odometry;general;sensor_base;general;utils;
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/robot-workstation/mapping/build/gtest/gtest
@@ -737,11 +749,14 @@ laserscan_kinect_BINARY_DIR:STATIC=/home/robot-workstation/mapping/build/depth_n
 //Value Computed by CMake
 laserscan_kinect_SOURCE_DIR:STATIC=/home/robot-workstation/mapping/src/depth_nav_tools/laserscan_kinect
 
+//Value Computed by CMake
+learing_tf_BINARY_DIR:STATIC=/home/robot-workstation/mapping/build/learing_tf
+
+//Value Computed by CMake
+learing_tf_SOURCE_DIR:STATIC=/home/robot-workstation/mapping/src/learing_tf
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/kinetic/lib/libvoxel_grid.so
-
-//Dependencies for the target
-log_LIB_DEPENDS:STATIC=general;sensor_range;general;sensor_odometry;general;sensor_base;
 
 //The directory containing a CMake configuration file for map_msgs.
 map_msgs_DIR:PATH=/opt/ros/kinetic/share/map_msgs/cmake
@@ -771,10 +786,13 @@ nodelet_DIR:PATH=/opt/ros/kinetic/share/nodelet/cmake
 nodelet_topic_tools_DIR:PATH=/opt/ros/kinetic/share/nodelet_topic_tools/cmake
 
 //Value Computed by CMake
-openslam_gmapping_BINARY_DIR:STATIC=/home/robot-workstation/mapping/build/openslam_gmapping
+odom_publisher_BINARY_DIR:STATIC=/home/robot-workstation/mapping/build/odom_publisher
 
 //Value Computed by CMake
-openslam_gmapping_SOURCE_DIR:STATIC=/home/robot-workstation/mapping/src/openslam_gmapping
+odom_publisher_SOURCE_DIR:STATIC=/home/robot-workstation/mapping/src/odom_publisher
+
+//The directory containing a CMake configuration file for openslam_gmapping.
+openslam_gmapping_DIR:PATH=/opt/ros/kinetic/share/openslam_gmapping/cmake
 
 //The directory containing a CMake configuration file for pcl_conversions.
 pcl_conversions_DIR:PATH=/opt/ros/kinetic/share/pcl_conversions/cmake
@@ -787,6 +805,12 @@ pcl_ros_DIR:PATH=/opt/ros/kinetic/share/pcl_ros/cmake
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/kinetic/share/pluginlib/cmake
+
+//Value Computed by CMake
+robot_setup_tf_BINARY_DIR:STATIC=/home/robot-workstation/mapping/build/robot_setup_tf
+
+//Value Computed by CMake
+robot_setup_tf_SOURCE_DIR:STATIC=/home/robot-workstation/mapping/src/robot_setup_tf
 
 //The directory containing a CMake configuration file for rosbag.
 rosbag_DIR:PATH=/opt/ros/kinetic/share/rosbag/cmake
@@ -824,23 +848,23 @@ rospack_DIR:PATH=/opt/ros/kinetic/share/rospack/cmake
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/kinetic/share/rospy/cmake
 
+//The directory containing a CMake configuration file for rostest.
+rostest_DIR:PATH=/opt/ros/kinetic/share/rostest/cmake
+
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/kinetic/share/rostime/cmake
-
-//Dependencies for the target
-scanmatcher_LIB_DEPENDS:STATIC=general;log;general;sensor_range;general;sensor_odometry;general;sensor_base;general;utils;
-
-//Dependencies for target
-sensor_base_LIB_DEPENDS:STATIC=
 
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/kinetic/share/sensor_msgs/cmake
 
-//Dependencies for the target
-sensor_odometry_LIB_DEPENDS:STATIC=general;sensor_base;
+//Value Computed by CMake
+slam_gmapping_BINARY_DIR:STATIC=/home/robot-workstation/mapping/build/slam_gmapping/slam_gmapping
+
+//Value Computed by CMake
+slam_gmapping_SOURCE_DIR:STATIC=/home/robot-workstation/mapping/src/slam_gmapping/slam_gmapping
 
 //Dependencies for the target
-sensor_range_LIB_DEPENDS:STATIC=general;sensor_base;
+slam_gmapping_nodelet_LIB_DEPENDS:STATIC=general;/opt/ros/kinetic/lib/libnodeletlib.so;general;/usr/lib/x86_64-linux-gnu/libuuid.so;general;/opt/ros/kinetic/lib/libbondcpp.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/kinetic/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/kinetic/lib/libroslib.so;general;/opt/ros/kinetic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython2.7.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/kinetic/lib/libgridfastslam.so;general;/opt/ros/kinetic/lib/libscanmatcher.so;general;/opt/ros/kinetic/lib/libsensor_base.so;general;/opt/ros/kinetic/lib/libsensor_range.so;general;/opt/ros/kinetic/lib/libsensor_odometry.so;general;/opt/ros/kinetic/lib/libutils.so;general;/opt/ros/kinetic/lib/libtf.so;general;/opt/ros/kinetic/lib/libtf2_ros.so;general;/opt/ros/kinetic/lib/libactionlib.so;general;/opt/ros/kinetic/lib/libmessage_filters.so;general;/opt/ros/kinetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/opt/ros/kinetic/lib/libxmlrpcpp.so;general;/opt/ros/kinetic/lib/libtf2.so;general;/opt/ros/kinetic/lib/libroscpp_serialization.so;general;/opt/ros/kinetic/lib/librosconsole.so;general;/opt/ros/kinetic/lib/librosconsole_log4cxx.so;general;/opt/ros/kinetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/opt/ros/kinetic/lib/librostime.so;general;/opt/ros/kinetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/opt/ros/kinetic/lib/librosbag_storage.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/opt/ros/kinetic/lib/libroslz4.so;general;/usr/lib/x86_64-linux-gnu/liblz4.so;
 
 //The directory containing a CMake configuration file for smclib.
 smclib_DIR:PATH=/opt/ros/kinetic/share/smclib/cmake
@@ -869,9 +893,6 @@ tf_DIR:PATH=/opt/ros/kinetic/share/tf/cmake
 //The directory containing a CMake configuration file for topic_tools.
 topic_tools_DIR:PATH=/opt/ros/kinetic/share/topic_tools/cmake
 
-//Dependencies for target
-utils_LIB_DEPENDS:STATIC=
-
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/kinetic/share/visualization_msgs/cmake
 
@@ -898,6 +919,8 @@ Boost_CHRONO_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 Boost_DATE_TIME_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_DATE_TIME_LIBRARY_RELEASE
 Boost_DATE_TIME_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_DIR
+Boost_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_DEBUG
 Boost_FILESYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_RELEASE
@@ -920,6 +943,10 @@ Boost_REGEX_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 Boost_SERIALIZATION_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_SERIALIZATION_LIBRARY_RELEASE
 Boost_SERIALIZATION_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_SIGNALS_LIBRARY_DEBUG
+Boost_SIGNALS_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_SIGNALS_LIBRARY_RELEASE
+Boost_SIGNALS_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_SYSTEM_LIBRARY_DEBUG
 Boost_SYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_SYSTEM_LIBRARY_RELEASE
@@ -1025,7 +1052,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1351,7 +1378,7 @@ _BOOST_INCLUDEDIR_LAST:INTERNAL=/usr/include
 //Last used Boost_ADDITIONAL_VERSIONS value.
 _Boost_ADDITIONAL_VERSIONS_LAST:INTERNAL=1.47;1.47.0
 //Components requested for this build tree.
-_Boost_COMPONENTS_SEARCHED:INTERNAL=atomic;chrono;date_time;filesystem;iostreams;regex;serialization;system;thread
+_Boost_COMPONENTS_SEARCHED:INTERNAL=atomic;chrono;date_time;filesystem;iostreams;regex;serialization;signals;system;thread
 //Last used Boost_INCLUDE_DIR value.
 _Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/include
 //Last used Boost_LIBRARY_DIR_DEBUG value.
