@@ -4,6 +4,12 @@ to install this package
 
 first delete the build and devel folders
 
+run
+
+```
+git submodule init
+```
+
 then run
 
 ```
