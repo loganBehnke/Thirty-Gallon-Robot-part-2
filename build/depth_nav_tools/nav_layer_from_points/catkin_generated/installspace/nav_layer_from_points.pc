@@ -1,8 +1,0 @@
-prefix=/home/student/RAT/Thirty-Gallon-Robot-part-2/install
-
-Name: nav_layer_from_points
-Description: Description of nav_layer_from_points
-Version: 1.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lcostmap_layers
-Requires: depth_nav_msgs costmap_2d dynamic_reconfigure geometry_msgs tf

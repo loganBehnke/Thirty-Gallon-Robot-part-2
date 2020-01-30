@@ -1,8 +1,0 @@
-prefix=/home/student/RAT/Thirty-Gallon-Robot-part-2/install
-
-Name: cliff_detector
-Description: Description of cliff_detector
-Version: 1.0.1
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lCliffDetector -lCliffDetectorNode -lCliffDetectorNodelet
-Requires: roscpp dynamic_reconfigure image_geometry image_transport nodelet sensor_msgs depth_nav_msgs

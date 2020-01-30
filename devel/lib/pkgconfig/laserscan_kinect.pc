@@ -1,8 +1,0 @@
-prefix=/home/student/RAT/Thirty-Gallon-Robot-part-2/devel
-
-Name: laserscan_kinect
-Description: Description of laserscan_kinect
-Version: 1.0.1
-Cflags: -I/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/include -I/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/laserscan_kinect/include
-Libs: -L${prefix}/lib -lLaserScanKinect -lLaserScanKinectNode -lLaserScanKinectNodelet
-Requires: roscpp dynamic_reconfigure image_geometry image_transport nodelet sensor_msgs
