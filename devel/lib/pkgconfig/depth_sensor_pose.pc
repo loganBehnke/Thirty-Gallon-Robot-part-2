@@ -1,8 +1,8 @@
-prefix=/home/robot-workstation/mapping/devel
+prefix=/home/student/RAT/Thirty-Gallon-Robot-part-2/devel
 
 Name: depth_sensor_pose
 Description: Description of depth_sensor_pose
 Version: 1.0.0
-Cflags: -I/home/robot-workstation/mapping/devel/include -I/home/robot-workstation/mapping/src/depth_nav_tools/depth_sensor_pose/include
-Libs: -L/home/robot-workstation/mapping/devel/lib -lDepthSensorPose -lDepthSensorPoseNode -lDepthSensorPoseNodelet
+Cflags: -I/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/include -I/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_sensor_pose/include
+Libs: -L${prefix}/lib -lDepthSensorPose -lDepthSensorPoseNode -lDepthSensorPoseNodelet
 Requires: roscpp dynamic_reconfigure image_geometry image_transport nodelet sensor_msgs libpcl-all

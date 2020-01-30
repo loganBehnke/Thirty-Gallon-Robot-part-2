@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/robot-workstation/mapping/devel/include/depth_nav_msgs/Point32List.h
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/include/depth_nav_msgs/Point32List.h
 string
 -
 vector
@@ -26,7 +26,7 @@ std_msgs/Header.h
 geometry_msgs/Point32.h
 -
 
-/home/robot-workstation/mapping/devel/include/nav_layer_from_points/NavLayerFromPointsConfig.h
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/include/nav_layer_from_points/NavLayerFromPointsConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -44,7 +44,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/robot-workstation/mapping/src/depth_nav_tools/nav_layer_from_points/include/nav_layer_from_points/costmap_layer.h
+/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/nav_layer_from_points/include/nav_layer_from_points/costmap_layer.h
 ros/ros.h
 -
 costmap_2d/layered_costmap.h
@@ -74,7 +74,7 @@ dynamic_reconfigure/server.h
 nav_layer_from_points/NavLayerFromPointsConfig.h
 -
 
-/home/robot-workstation/mapping/src/depth_nav_tools/nav_layer_from_points/src/costmap_layer.cpp
+/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/nav_layer_from_points/src/costmap_layer.cpp
 nav_layer_from_points/costmap_layer.h
 -
 iostream

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot-workstation/mapping/src
+CMAKE_SOURCE_DIR = /home/student/RAT/Thirty-Gallon-Robot-part-2/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot-workstation/mapping/build
+CMAKE_BINARY_DIR = /home/student/RAT/Thirty-Gallon-Robot-part-2/build
 
 # Utility rule file for roscpp_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ depth_nav_tools/cliff_detector/CMakeFiles/roscpp_generate_messages_lisp.dir/buil
 .PHONY : depth_nav_tools/cliff_detector/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 
 depth_nav_tools/cliff_detector/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	cd /home/robot-workstation/mapping/build/depth_nav_tools/cliff_detector && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/cliff_detector && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : depth_nav_tools/cliff_detector/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 depth_nav_tools/cliff_detector/CMakeFiles/roscpp_generate_messages_lisp.dir/depend:
-	cd /home/robot-workstation/mapping/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot-workstation/mapping/src /home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector /home/robot-workstation/mapping/build /home/robot-workstation/mapping/build/depth_nav_tools/cliff_detector /home/robot-workstation/mapping/build/depth_nav_tools/cliff_detector/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/RAT/Thirty-Gallon-Robot-part-2/src /home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector /home/student/RAT/Thirty-Gallon-Robot-part-2/build /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/cliff_detector /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/cliff_detector/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depth_nav_tools/cliff_detector/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 

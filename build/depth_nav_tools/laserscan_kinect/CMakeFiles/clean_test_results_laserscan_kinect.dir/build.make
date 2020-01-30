@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot-workstation/mapping/src
+CMAKE_SOURCE_DIR = /home/student/RAT/Thirty-Gallon-Robot-part-2/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot-workstation/mapping/build
+CMAKE_BINARY_DIR = /home/student/RAT/Thirty-Gallon-Robot-part-2/build
 
 # Utility rule file for clean_test_results_laserscan_kinect.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/robot-workstation/mapping/build
 include depth_nav_tools/laserscan_kinect/CMakeFiles/clean_test_results_laserscan_kinect.dir/progress.make
 
 depth_nav_tools/laserscan_kinect/CMakeFiles/clean_test_results_laserscan_kinect:
-	cd /home/robot-workstation/mapping/build/depth_nav_tools/laserscan_kinect && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/robot-workstation/mapping/build/test_results/laserscan_kinect
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/laserscan_kinect && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/student/RAT/Thirty-Gallon-Robot-part-2/build/test_results/laserscan_kinect
 
 clean_test_results_laserscan_kinect: depth_nav_tools/laserscan_kinect/CMakeFiles/clean_test_results_laserscan_kinect
 clean_test_results_laserscan_kinect: depth_nav_tools/laserscan_kinect/CMakeFiles/clean_test_results_laserscan_kinect.dir/build.make
@@ -67,10 +67,10 @@ depth_nav_tools/laserscan_kinect/CMakeFiles/clean_test_results_laserscan_kinect.
 .PHONY : depth_nav_tools/laserscan_kinect/CMakeFiles/clean_test_results_laserscan_kinect.dir/build
 
 depth_nav_tools/laserscan_kinect/CMakeFiles/clean_test_results_laserscan_kinect.dir/clean:
-	cd /home/robot-workstation/mapping/build/depth_nav_tools/laserscan_kinect && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_laserscan_kinect.dir/cmake_clean.cmake
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/laserscan_kinect && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_laserscan_kinect.dir/cmake_clean.cmake
 .PHONY : depth_nav_tools/laserscan_kinect/CMakeFiles/clean_test_results_laserscan_kinect.dir/clean
 
 depth_nav_tools/laserscan_kinect/CMakeFiles/clean_test_results_laserscan_kinect.dir/depend:
-	cd /home/robot-workstation/mapping/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot-workstation/mapping/src /home/robot-workstation/mapping/src/depth_nav_tools/laserscan_kinect /home/robot-workstation/mapping/build /home/robot-workstation/mapping/build/depth_nav_tools/laserscan_kinect /home/robot-workstation/mapping/build/depth_nav_tools/laserscan_kinect/CMakeFiles/clean_test_results_laserscan_kinect.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/RAT/Thirty-Gallon-Robot-part-2/src /home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/laserscan_kinect /home/student/RAT/Thirty-Gallon-Robot-part-2/build /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/laserscan_kinect /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/laserscan_kinect/CMakeFiles/clean_test_results_laserscan_kinect.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depth_nav_tools/laserscan_kinect/CMakeFiles/clean_test_results_laserscan_kinect.dir/depend
 

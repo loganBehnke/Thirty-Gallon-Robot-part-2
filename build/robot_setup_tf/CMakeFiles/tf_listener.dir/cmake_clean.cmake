@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tf_listener.dir/src/tf_listener.cpp.o"
-  "/home/robot-workstation/mapping/devel/lib/robot_setup_tf/tf_listener.pdb"
-  "/home/robot-workstation/mapping/devel/lib/robot_setup_tf/tf_listener"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/robot_setup_tf/tf_listener.pdb"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/robot_setup_tf/tf_listener"
 )
 
 # Per-language clean rules from dependency scanning.

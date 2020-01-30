@@ -1,5 +1,5 @@
 # generated from catkin/cmake/template/order_packages.context.py.in
-source_root_dir = "/home/robot-workstation/mapping/src"
+source_root_dir = "/home/student/RAT/Thirty-Gallon-Robot-part-2/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/home/robot-workstation/multi_map_navigation/devel;/home/robot-workstation/mapping/devel;/opt/ros/kinetic".split(';') if "/home/robot-workstation/multi_map_navigation/devel;/home/robot-workstation/mapping/devel;/opt/ros/kinetic" != "" else []
+underlay_workspaces = "/opt/ros/kinetic".split(';') if "/opt/ros/kinetic" != "" else []

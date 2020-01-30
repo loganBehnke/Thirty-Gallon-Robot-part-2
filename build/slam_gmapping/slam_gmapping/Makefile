@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot-workstation/mapping/src
+CMAKE_SOURCE_DIR = /home/student/RAT/Thirty-Gallon-Robot-part-2/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot-workstation/mapping/build
+CMAKE_BINARY_DIR = /home/student/RAT/Thirty-Gallon-Robot-part-2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/robot-workstation/mapping/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/robot-workstation/mapping/build/CMakeFiles /home/robot-workstation/mapping/build/slam_gmapping/slam_gmapping/CMakeFiles/progress.marks
-	cd /home/robot-workstation/mapping/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/slam_gmapping/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot-workstation/mapping/build/CMakeFiles 0
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/RAT/Thirty-Gallon-Robot-part-2/build/CMakeFiles /home/student/RAT/Thirty-Gallon-Robot-part-2/build/slam_gmapping/slam_gmapping/CMakeFiles/progress.marks
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/slam_gmapping/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/RAT/Thirty-Gallon-Robot-part-2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/robot-workstation/mapping/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/slam_gmapping/clean
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/slam_gmapping/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,17 +152,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/robot-workstation/mapping/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/slam_gmapping/preinstall
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/slam_gmapping/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/robot-workstation/mapping/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/slam_gmapping/preinstall
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/slam_gmapping/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/robot-workstation/mapping/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -189,6 +189,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/robot-workstation/mapping/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot-workstation/mapping/src
+CMAKE_SOURCE_DIR = /home/student/RAT/Thirty-Gallon-Robot-part-2/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot-workstation/mapping/build
+CMAKE_BINARY_DIR = /home/student/RAT/Thirty-Gallon-Robot-part-2/build
 
 # Utility rule file for _run_tests_laserscan_kinect_gtest_laserscanKinectTest.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/robot-workstation/mapping/build
 include depth_nav_tools/laserscan_kinect/CMakeFiles/_run_tests_laserscan_kinect_gtest_laserscanKinectTest.dir/progress.make
 
 depth_nav_tools/laserscan_kinect/CMakeFiles/_run_tests_laserscan_kinect_gtest_laserscanKinectTest:
-	cd /home/robot-workstation/mapping/build/depth_nav_tools/laserscan_kinect && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/robot-workstation/mapping/build/test_results/laserscan_kinect/gtest-laserscanKinectTest.xml "/home/robot-workstation/mapping/devel/lib/laserscan_kinect/laserscanKinectTest --gtest_output=xml:/home/robot-workstation/mapping/build/test_results/laserscan_kinect/gtest-laserscanKinectTest.xml"
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/laserscan_kinect && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/student/RAT/Thirty-Gallon-Robot-part-2/build/test_results/laserscan_kinect/gtest-laserscanKinectTest.xml "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/laserscan_kinect/laserscanKinectTest --gtest_output=xml:/home/student/RAT/Thirty-Gallon-Robot-part-2/build/test_results/laserscan_kinect/gtest-laserscanKinectTest.xml"
 
 _run_tests_laserscan_kinect_gtest_laserscanKinectTest: depth_nav_tools/laserscan_kinect/CMakeFiles/_run_tests_laserscan_kinect_gtest_laserscanKinectTest
 _run_tests_laserscan_kinect_gtest_laserscanKinectTest: depth_nav_tools/laserscan_kinect/CMakeFiles/_run_tests_laserscan_kinect_gtest_laserscanKinectTest.dir/build.make
@@ -67,10 +67,10 @@ depth_nav_tools/laserscan_kinect/CMakeFiles/_run_tests_laserscan_kinect_gtest_la
 .PHONY : depth_nav_tools/laserscan_kinect/CMakeFiles/_run_tests_laserscan_kinect_gtest_laserscanKinectTest.dir/build
 
 depth_nav_tools/laserscan_kinect/CMakeFiles/_run_tests_laserscan_kinect_gtest_laserscanKinectTest.dir/clean:
-	cd /home/robot-workstation/mapping/build/depth_nav_tools/laserscan_kinect && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_laserscan_kinect_gtest_laserscanKinectTest.dir/cmake_clean.cmake
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/laserscan_kinect && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_laserscan_kinect_gtest_laserscanKinectTest.dir/cmake_clean.cmake
 .PHONY : depth_nav_tools/laserscan_kinect/CMakeFiles/_run_tests_laserscan_kinect_gtest_laserscanKinectTest.dir/clean
 
 depth_nav_tools/laserscan_kinect/CMakeFiles/_run_tests_laserscan_kinect_gtest_laserscanKinectTest.dir/depend:
-	cd /home/robot-workstation/mapping/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot-workstation/mapping/src /home/robot-workstation/mapping/src/depth_nav_tools/laserscan_kinect /home/robot-workstation/mapping/build /home/robot-workstation/mapping/build/depth_nav_tools/laserscan_kinect /home/robot-workstation/mapping/build/depth_nav_tools/laserscan_kinect/CMakeFiles/_run_tests_laserscan_kinect_gtest_laserscanKinectTest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/RAT/Thirty-Gallon-Robot-part-2/src /home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/laserscan_kinect /home/student/RAT/Thirty-Gallon-Robot-part-2/build /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/laserscan_kinect /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/laserscan_kinect/CMakeFiles/_run_tests_laserscan_kinect_gtest_laserscanKinectTest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depth_nav_tools/laserscan_kinect/CMakeFiles/_run_tests_laserscan_kinect_gtest_laserscanKinectTest.dir/depend
 

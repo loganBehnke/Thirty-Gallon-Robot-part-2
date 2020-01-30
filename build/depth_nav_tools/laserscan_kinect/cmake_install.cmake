@@ -1,8 +1,8 @@
-# Install script for directory: /home/robot-workstation/mapping/src/depth_nav_tools/laserscan_kinect
+# Install script for directory: /home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/laserscan_kinect
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robot-workstation/mapping/install")
+  set(CMAKE_INSTALL_PREFIX "/home/student/RAT/Thirty-Gallon-Robot-part-2/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,33 +33,33 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/laserscan_kinect" TYPE FILE FILES "/home/robot-workstation/mapping/devel/include/laserscan_kinect/LaserscanKinectConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/laserscan_kinect" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/include/laserscan_kinect/LaserscanKinectConfig.h")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/laserscan_kinect" TYPE FILE FILES "/home/robot-workstation/mapping/devel/lib/python2.7/dist-packages/laserscan_kinect/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/laserscan_kinect" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/python2.7/dist-packages/laserscan_kinect/__init__.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/robot-workstation/mapping/devel/lib/python2.7/dist-packages/laserscan_kinect/cfg")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/python2.7/dist-packages/laserscan_kinect/cfg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/laserscan_kinect" TYPE DIRECTORY FILES "/home/robot-workstation/mapping/devel/lib/python2.7/dist-packages/laserscan_kinect/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/laserscan_kinect" TYPE DIRECTORY FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/python2.7/dist-packages/laserscan_kinect/cfg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robot-workstation/mapping/build/depth_nav_tools/laserscan_kinect/catkin_generated/installspace/laserscan_kinect.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/laserscan_kinect/catkin_generated/installspace/laserscan_kinect.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/laserscan_kinect/cmake" TYPE FILE FILES
-    "/home/robot-workstation/mapping/build/depth_nav_tools/laserscan_kinect/catkin_generated/installspace/laserscan_kinectConfig.cmake"
-    "/home/robot-workstation/mapping/build/depth_nav_tools/laserscan_kinect/catkin_generated/installspace/laserscan_kinectConfig-version.cmake"
+    "/home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/laserscan_kinect/catkin_generated/installspace/laserscan_kinectConfig.cmake"
+    "/home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/laserscan_kinect/catkin_generated/installspace/laserscan_kinectConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/laserscan_kinect" TYPE FILE FILES "/home/robot-workstation/mapping/src/depth_nav_tools/laserscan_kinect/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/laserscan_kinect" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/laserscan_kinect/package.xml")
 endif()
 

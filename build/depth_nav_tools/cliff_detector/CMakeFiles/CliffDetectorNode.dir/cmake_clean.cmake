@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CliffDetectorNode.dir/src/cliff_detector_node.cpp.o"
-  "/home/robot-workstation/mapping/devel/lib/libCliffDetectorNode.pdb"
-  "/home/robot-workstation/mapping/devel/lib/libCliffDetectorNode.so"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNode.pdb"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNode.so"
 )
 
 # Per-language clean rules from dependency scanning.

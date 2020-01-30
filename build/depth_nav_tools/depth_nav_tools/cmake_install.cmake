@@ -1,8 +1,8 @@
-# Install script for directory: /home/robot-workstation/mapping/src/depth_nav_tools/depth_nav_tools
+# Install script for directory: /home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_nav_tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robot-workstation/mapping/install")
+  set(CMAKE_INSTALL_PREFIX "/home/student/RAT/Thirty-Gallon-Robot-part-2/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depth_nav_tools" TYPE FILE FILES "/home/robot-workstation/mapping/src/depth_nav_tools/depth_nav_tools/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depth_nav_tools" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_nav_tools/package.xml")
 endif()
 

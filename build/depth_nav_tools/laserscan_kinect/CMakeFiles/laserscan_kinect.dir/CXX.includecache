@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/robot-workstation/mapping/devel/include/laserscan_kinect/LaserscanKinectConfig.h
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/include/laserscan_kinect/LaserscanKinectConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/robot-workstation/mapping/src/depth_nav_tools/laserscan_kinect/include/laserscan_kinect/laserscan_kinect.h
+/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/laserscan_kinect/include/laserscan_kinect/laserscan_kinect.h
 ros/console.h
 -
 sensor_msgs/Image.h
@@ -40,7 +40,7 @@ vector
 string
 -
 
-/home/robot-workstation/mapping/src/depth_nav_tools/laserscan_kinect/include/laserscan_kinect/laserscan_kinect_node.h
+/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/laserscan_kinect/include/laserscan_kinect/laserscan_kinect_node.h
 mutex
 -
 ros/ros.h
@@ -58,7 +58,7 @@ laserscan_kinect/LaserscanKinectConfig.h
 laserscan_kinect/laserscan_kinect.h
 -
 
-/home/robot-workstation/mapping/src/depth_nav_tools/laserscan_kinect/src/main.cpp
+/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/laserscan_kinect/src/main.cpp
 laserscan_kinect/laserscan_kinect_node.h
 -
 

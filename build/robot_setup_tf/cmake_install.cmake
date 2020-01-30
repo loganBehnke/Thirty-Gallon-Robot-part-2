@@ -1,8 +1,8 @@
-# Install script for directory: /home/robot-workstation/mapping/src/robot_setup_tf
+# Install script for directory: /home/student/RAT/Thirty-Gallon-Robot-part-2/src/robot_setup_tf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robot-workstation/mapping/install")
+  set(CMAKE_INSTALL_PREFIX "/home/student/RAT/Thirty-Gallon-Robot-part-2/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robot-workstation/mapping/build/robot_setup_tf/catkin_generated/installspace/robot_setup_tf.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/build/robot_setup_tf/catkin_generated/installspace/robot_setup_tf.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_setup_tf/cmake" TYPE FILE FILES
-    "/home/robot-workstation/mapping/build/robot_setup_tf/catkin_generated/installspace/robot_setup_tfConfig.cmake"
-    "/home/robot-workstation/mapping/build/robot_setup_tf/catkin_generated/installspace/robot_setup_tfConfig-version.cmake"
+    "/home/student/RAT/Thirty-Gallon-Robot-part-2/build/robot_setup_tf/catkin_generated/installspace/robot_setup_tfConfig.cmake"
+    "/home/student/RAT/Thirty-Gallon-Robot-part-2/build/robot_setup_tf/catkin_generated/installspace/robot_setup_tfConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_setup_tf" TYPE FILE FILES "/home/robot-workstation/mapping/src/robot_setup_tf/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_setup_tf" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/robot_setup_tf/package.xml")
 endif()
 

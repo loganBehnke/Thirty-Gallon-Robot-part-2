@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/robot-workstation/mapping/src
-# Build directory: /home/robot-workstation/mapping/build
+# Source directory: /home/student/RAT/Thirty-Gallon-Robot-part-2/src
+# Build directory: /home/student/RAT/Thirty-Gallon-Robot-part-2/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

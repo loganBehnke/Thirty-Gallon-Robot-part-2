@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/laserscan_kinect.dir/src/main.cpp.o"
-  "/home/robot-workstation/mapping/devel/lib/laserscan_kinect/laserscan_kinect.pdb"
-  "/home/robot-workstation/mapping/devel/lib/laserscan_kinect/laserscan_kinect"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/laserscan_kinect/laserscan_kinect.pdb"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/laserscan_kinect/laserscan_kinect"
 )
 
 # Per-language clean rules from dependency scanning.

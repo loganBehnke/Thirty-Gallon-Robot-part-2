@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot-workstation/mapping/src
+CMAKE_SOURCE_DIR = /home/student/RAT/Thirty-Gallon-Robot-part-2/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot-workstation/mapping/build
+CMAKE_BINARY_DIR = /home/student/RAT/Thirty-Gallon-Robot-part-2/build
 
 # Include any dependencies generated for this target.
 include slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/depend.make
@@ -58,17 +58,17 @@ include slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/progress.mak
 include slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/flags.make
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/flags.make
-slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o: /home/robot-workstation/mapping/src/slam_gmapping/gmapping/src/slam_gmapping.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot-workstation/mapping/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o"
-	cd /home/robot-workstation/mapping/build/slam_gmapping/gmapping && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o -c /home/robot-workstation/mapping/src/slam_gmapping/gmapping/src/slam_gmapping.cpp
+slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o: /home/student/RAT/Thirty-Gallon-Robot-part-2/src/slam_gmapping/gmapping/src/slam_gmapping.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/RAT/Thirty-Gallon-Robot-part-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o"
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/slam_gmapping/gmapping && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o -c /home/student/RAT/Thirty-Gallon-Robot-part-2/src/slam_gmapping/gmapping/src/slam_gmapping.cpp
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.i"
-	cd /home/robot-workstation/mapping/build/slam_gmapping/gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot-workstation/mapping/src/slam_gmapping/gmapping/src/slam_gmapping.cpp > CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.i
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/slam_gmapping/gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/RAT/Thirty-Gallon-Robot-part-2/src/slam_gmapping/gmapping/src/slam_gmapping.cpp > CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.i
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.s"
-	cd /home/robot-workstation/mapping/build/slam_gmapping/gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot-workstation/mapping/src/slam_gmapping/gmapping/src/slam_gmapping.cpp -o CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.s
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/slam_gmapping/gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/RAT/Thirty-Gallon-Robot-part-2/src/slam_gmapping/gmapping/src/slam_gmapping.cpp -o CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.s
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o.requires:
 
@@ -82,17 +82,17 @@ slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cp
 
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/flags.make
-slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o: /home/robot-workstation/mapping/src/slam_gmapping/gmapping/src/nodelet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot-workstation/mapping/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o"
-	cd /home/robot-workstation/mapping/build/slam_gmapping/gmapping && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o -c /home/robot-workstation/mapping/src/slam_gmapping/gmapping/src/nodelet.cpp
+slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o: /home/student/RAT/Thirty-Gallon-Robot-part-2/src/slam_gmapping/gmapping/src/nodelet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/RAT/Thirty-Gallon-Robot-part-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o"
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/slam_gmapping/gmapping && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o -c /home/student/RAT/Thirty-Gallon-Robot-part-2/src/slam_gmapping/gmapping/src/nodelet.cpp
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.i"
-	cd /home/robot-workstation/mapping/build/slam_gmapping/gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot-workstation/mapping/src/slam_gmapping/gmapping/src/nodelet.cpp > CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.i
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/slam_gmapping/gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/RAT/Thirty-Gallon-Robot-part-2/src/slam_gmapping/gmapping/src/nodelet.cpp > CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.i
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.s"
-	cd /home/robot-workstation/mapping/build/slam_gmapping/gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot-workstation/mapping/src/slam_gmapping/gmapping/src/nodelet.cpp -o CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.s
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/slam_gmapping/gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/RAT/Thirty-Gallon-Robot-part-2/src/slam_gmapping/gmapping/src/nodelet.cpp -o CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.s
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o.requires:
 
@@ -113,60 +113,60 @@ slam_gmapping_nodelet_OBJECTS = \
 # External object files for target slam_gmapping_nodelet
 slam_gmapping_nodelet_EXTERNAL_OBJECTS =
 
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/build.make
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libnodeletlib.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libbondcpp.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/libPocoFoundation.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libroslib.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librospack.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libgridfastslam.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libscanmatcher.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libsensor_base.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libsensor_range.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libsensor_odometry.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libutils.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libtf.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libtf2.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librostime.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librosbag_storage.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libroslz4.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/liblz4.so
-/home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robot-workstation/mapping/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so"
-	cd /home/robot-workstation/mapping/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slam_gmapping_nodelet.dir/link.txt --verbose=$(VERBOSE)
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/build.make
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libnodeletlib.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libbondcpp.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/libPocoFoundation.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libroslib.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librospack.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libgridfastslam.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libscanmatcher.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libsensor_base.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libsensor_range.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libsensor_odometry.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libutils.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libtf.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libtf2.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librostime.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librosbag_storage.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libroslz4.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/liblz4.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/RAT/Thirty-Gallon-Robot-part-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so"
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slam_gmapping_nodelet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/build: /home/robot-workstation/mapping/devel/lib/libslam_gmapping_nodelet.so
+slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/build: /home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libslam_gmapping_nodelet.so
 
 .PHONY : slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/build
 
@@ -176,10 +176,10 @@ slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/requires: slam_gmapp
 .PHONY : slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/requires
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/clean:
-	cd /home/robot-workstation/mapping/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -P CMakeFiles/slam_gmapping_nodelet.dir/cmake_clean.cmake
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -P CMakeFiles/slam_gmapping_nodelet.dir/cmake_clean.cmake
 .PHONY : slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/clean
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/depend:
-	cd /home/robot-workstation/mapping/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot-workstation/mapping/src /home/robot-workstation/mapping/src/slam_gmapping/gmapping /home/robot-workstation/mapping/build /home/robot-workstation/mapping/build/slam_gmapping/gmapping /home/robot-workstation/mapping/build/slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/RAT/Thirty-Gallon-Robot-part-2/src /home/student/RAT/Thirty-Gallon-Robot-part-2/src/slam_gmapping/gmapping /home/student/RAT/Thirty-Gallon-Robot-part-2/build /home/student/RAT/Thirty-Gallon-Robot-part-2/build/slam_gmapping/gmapping /home/student/RAT/Thirty-Gallon-Robot-part-2/build/slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/depend
 

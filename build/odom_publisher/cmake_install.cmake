@@ -1,8 +1,8 @@
-# Install script for directory: /home/robot-workstation/mapping/src/odom_publisher
+# Install script for directory: /home/student/RAT/Thirty-Gallon-Robot-part-2/src/odom_publisher
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robot-workstation/mapping/install")
+  set(CMAKE_INSTALL_PREFIX "/home/student/RAT/Thirty-Gallon-Robot-part-2/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robot-workstation/mapping/build/odom_publisher/catkin_generated/installspace/odom_publisher.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/build/odom_publisher/catkin_generated/installspace/odom_publisher.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/odom_publisher/cmake" TYPE FILE FILES
-    "/home/robot-workstation/mapping/build/odom_publisher/catkin_generated/installspace/odom_publisherConfig.cmake"
-    "/home/robot-workstation/mapping/build/odom_publisher/catkin_generated/installspace/odom_publisherConfig-version.cmake"
+    "/home/student/RAT/Thirty-Gallon-Robot-part-2/build/odom_publisher/catkin_generated/installspace/odom_publisherConfig.cmake"
+    "/home/student/RAT/Thirty-Gallon-Robot-part-2/build/odom_publisher/catkin_generated/installspace/odom_publisherConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/odom_publisher" TYPE FILE FILES "/home/robot-workstation/mapping/src/odom_publisher/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/odom_publisher" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/odom_publisher/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,7 +54,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/odom_publisher/odometry_publisher"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/odom_publisher" TYPE EXECUTABLE FILES "/home/robot-workstation/mapping/devel/lib/odom_publisher/odometry_publisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/odom_publisher" TYPE EXECUTABLE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/odom_publisher/odometry_publisher")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/odom_publisher/odometry_publisher" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/odom_publisher/odometry_publisher")
     file(RPATH_CHANGE

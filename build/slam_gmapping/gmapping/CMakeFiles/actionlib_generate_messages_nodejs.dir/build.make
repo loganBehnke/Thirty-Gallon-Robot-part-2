@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot-workstation/mapping/src
+CMAKE_SOURCE_DIR = /home/student/RAT/Thirty-Gallon-Robot-part-2/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot-workstation/mapping/build
+CMAKE_BINARY_DIR = /home/student/RAT/Thirty-Gallon-Robot-part-2/build
 
 # Utility rule file for actionlib_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ slam_gmapping/gmapping/CMakeFiles/actionlib_generate_messages_nodejs.dir/build: 
 .PHONY : slam_gmapping/gmapping/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 
 slam_gmapping/gmapping/CMakeFiles/actionlib_generate_messages_nodejs.dir/clean:
-	cd /home/robot-workstation/mapping/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : slam_gmapping/gmapping/CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
 
 slam_gmapping/gmapping/CMakeFiles/actionlib_generate_messages_nodejs.dir/depend:
-	cd /home/robot-workstation/mapping/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot-workstation/mapping/src /home/robot-workstation/mapping/src/slam_gmapping/gmapping /home/robot-workstation/mapping/build /home/robot-workstation/mapping/build/slam_gmapping/gmapping /home/robot-workstation/mapping/build/slam_gmapping/gmapping/CMakeFiles/actionlib_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/RAT/Thirty-Gallon-Robot-part-2/src /home/student/RAT/Thirty-Gallon-Robot-part-2/src/slam_gmapping/gmapping /home/student/RAT/Thirty-Gallon-Robot-part-2/build /home/student/RAT/Thirty-Gallon-Robot-part-2/build/slam_gmapping/gmapping /home/student/RAT/Thirty-Gallon-Robot-part-2/build/slam_gmapping/gmapping/CMakeFiles/actionlib_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : slam_gmapping/gmapping/CMakeFiles/actionlib_generate_messages_nodejs.dir/depend
 

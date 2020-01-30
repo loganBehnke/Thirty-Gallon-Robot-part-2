@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/depth_nav_msgs_generate_messages_lisp"
-  "/home/robot-workstation/mapping/devel/share/common-lisp/ros/depth_nav_msgs/msg/Point32List.lisp"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/share/common-lisp/ros/depth_nav_msgs/msg/Point32List.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

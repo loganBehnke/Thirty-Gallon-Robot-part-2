@@ -1,8 +1,8 @@
-prefix=/home/robot-workstation/mapping/devel
+prefix=/home/student/RAT/Thirty-Gallon-Robot-part-2/devel
 
 Name: robot_setup_tf
 Description: Description of robot_setup_tf
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/robot-workstation/mapping/devel/lib 
+Libs: -L${prefix}/lib 
 Requires: 

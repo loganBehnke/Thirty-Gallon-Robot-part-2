@@ -2,7 +2,7 @@
 
 message(STATUS "depth_nav_msgs: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Idepth_nav_msgs:/home/robot-workstation/mapping/src/depth_nav_tools/depth_nav_msgs/msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Idepth_nav_msgs:/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_nav_msgs/msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,9 +17,9 @@ add_custom_target(depth_nav_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/robot-workstation/mapping/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg" NAME_WE)
+get_filename_component(_filename "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg" NAME_WE)
 add_custom_target(_depth_nav_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "depth_nav_msgs" "/home/robot-workstation/mapping/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg" "geometry_msgs/Point32:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "depth_nav_msgs" "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg" "geometry_msgs/Point32:std_msgs/Header"
 )
 
 #
@@ -29,7 +29,7 @@ add_custom_target(_depth_nav_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(depth_nav_msgs
-  "/home/robot-workstation/mapping/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/depth_nav_msgs
@@ -49,7 +49,7 @@ add_custom_target(depth_nav_msgs_generate_messages_cpp
 add_dependencies(depth_nav_msgs_generate_messages depth_nav_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robot-workstation/mapping/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg" NAME_WE)
+get_filename_component(_filename "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg" NAME_WE)
 add_dependencies(depth_nav_msgs_generate_messages_cpp _depth_nav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -62,7 +62,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS depth_nav_msgs_generate_messages_cp
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(depth_nav_msgs
-  "/home/robot-workstation/mapping/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/depth_nav_msgs
@@ -82,7 +82,7 @@ add_custom_target(depth_nav_msgs_generate_messages_eus
 add_dependencies(depth_nav_msgs_generate_messages depth_nav_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robot-workstation/mapping/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg" NAME_WE)
+get_filename_component(_filename "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg" NAME_WE)
 add_dependencies(depth_nav_msgs_generate_messages_eus _depth_nav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -95,7 +95,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS depth_nav_msgs_generate_messages_eu
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(depth_nav_msgs
-  "/home/robot-workstation/mapping/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/depth_nav_msgs
@@ -115,7 +115,7 @@ add_custom_target(depth_nav_msgs_generate_messages_lisp
 add_dependencies(depth_nav_msgs_generate_messages depth_nav_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robot-workstation/mapping/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg" NAME_WE)
+get_filename_component(_filename "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg" NAME_WE)
 add_dependencies(depth_nav_msgs_generate_messages_lisp _depth_nav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -128,7 +128,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS depth_nav_msgs_generate_messages_li
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(depth_nav_msgs
-  "/home/robot-workstation/mapping/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/depth_nav_msgs
@@ -148,7 +148,7 @@ add_custom_target(depth_nav_msgs_generate_messages_nodejs
 add_dependencies(depth_nav_msgs_generate_messages depth_nav_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robot-workstation/mapping/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg" NAME_WE)
+get_filename_component(_filename "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg" NAME_WE)
 add_dependencies(depth_nav_msgs_generate_messages_nodejs _depth_nav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -161,7 +161,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS depth_nav_msgs_generate_messages_no
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(depth_nav_msgs
-  "/home/robot-workstation/mapping/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/depth_nav_msgs
@@ -181,7 +181,7 @@ add_custom_target(depth_nav_msgs_generate_messages_py
 add_dependencies(depth_nav_msgs_generate_messages depth_nav_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/robot-workstation/mapping/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg" NAME_WE)
+get_filename_component(_filename "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_nav_msgs/msg/Point32List.msg" NAME_WE)
 add_dependencies(depth_nav_msgs_generate_messages_py _depth_nav_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -250,7 +250,7 @@ if(TARGET std_msgs_generate_messages_nodejs)
 endif()
 
 if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/depth_nav_msgs)
-  install(CODE "execute_process(COMMAND \"/usr/bin/python\" -m compileall \"${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/depth_nav_msgs\")")
+  install(CODE "execute_process(COMMAND \"/usr/bin/python2\" -m compileall \"${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/depth_nav_msgs\")")
   # install generated code
   install(
     DIRECTORY ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/depth_nav_msgs

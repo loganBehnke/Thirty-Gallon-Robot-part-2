@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector/src/cliff_detector.cpp" "/home/robot-workstation/mapping/build/depth_nav_tools/cliff_detector/CMakeFiles/CliffDetector.dir/src/cliff_detector.cpp.o"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector/src/cliff_detector.cpp" "/home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/cliff_detector/CMakeFiles/CliffDetector.dir/src/cliff_detector.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/robot-workstation/mapping/devel/include"
-  "/home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector/include"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/include"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/opt/ros/kinetic/include/opencv-3.3.1-dev"

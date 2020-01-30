@@ -1,8 +1,8 @@
-# Install script for directory: /home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector
+# Install script for directory: /home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robot-workstation/mapping/install")
+  set(CMAKE_INSTALL_PREFIX "/home/student/RAT/Thirty-Gallon-Robot-part-2/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,33 +33,33 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cliff_detector" TYPE FILE FILES "/home/robot-workstation/mapping/devel/include/cliff_detector/CliffDetectorConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cliff_detector" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/include/cliff_detector/CliffDetectorConfig.h")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/cliff_detector" TYPE FILE FILES "/home/robot-workstation/mapping/devel/lib/python2.7/dist-packages/cliff_detector/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/cliff_detector" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/python2.7/dist-packages/cliff_detector/__init__.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/robot-workstation/mapping/devel/lib/python2.7/dist-packages/cliff_detector/cfg")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/python2.7/dist-packages/cliff_detector/cfg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/cliff_detector" TYPE DIRECTORY FILES "/home/robot-workstation/mapping/devel/lib/python2.7/dist-packages/cliff_detector/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/cliff_detector" TYPE DIRECTORY FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/python2.7/dist-packages/cliff_detector/cfg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robot-workstation/mapping/build/depth_nav_tools/cliff_detector/catkin_generated/installspace/cliff_detector.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/cliff_detector/catkin_generated/installspace/cliff_detector.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cliff_detector/cmake" TYPE FILE FILES
-    "/home/robot-workstation/mapping/build/depth_nav_tools/cliff_detector/catkin_generated/installspace/cliff_detectorConfig.cmake"
-    "/home/robot-workstation/mapping/build/depth_nav_tools/cliff_detector/catkin_generated/installspace/cliff_detectorConfig-version.cmake"
+    "/home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/cliff_detector/catkin_generated/installspace/cliff_detectorConfig.cmake"
+    "/home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/cliff_detector/catkin_generated/installspace/cliff_detectorConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cliff_detector" TYPE FILE FILES "/home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cliff_detector" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector/package.xml")
 endif()
 

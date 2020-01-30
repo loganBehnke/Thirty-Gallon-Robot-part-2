@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/depth_nav_msgs_generate_messages_cpp"
-  "/home/robot-workstation/mapping/devel/include/depth_nav_msgs/Point32List.h"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/include/depth_nav_msgs/Point32List.h"
 )
 
 # Per-language clean rules from dependency scanning.

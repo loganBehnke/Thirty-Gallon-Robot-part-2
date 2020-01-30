@@ -1,8 +1,8 @@
-prefix=/home/robot-workstation/mapping/devel
+prefix=/home/student/RAT/Thirty-Gallon-Robot-part-2/devel
 
 Name: depth_nav_msgs
 Description: Description of depth_nav_msgs
 Version: 1.0.0
-Cflags: -I/home/robot-workstation/mapping/devel/include
-Libs: -L/home/robot-workstation/mapping/devel/lib 
+Cflags: -I/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/include
+Libs: -L${prefix}/lib 
 Requires: message_runtime geometry_msgs std_msgs

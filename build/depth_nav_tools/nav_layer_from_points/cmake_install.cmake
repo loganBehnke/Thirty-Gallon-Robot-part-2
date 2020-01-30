@@ -1,8 +1,8 @@
-# Install script for directory: /home/robot-workstation/mapping/src/depth_nav_tools/nav_layer_from_points
+# Install script for directory: /home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/nav_layer_from_points
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robot-workstation/mapping/install")
+  set(CMAKE_INSTALL_PREFIX "/home/student/RAT/Thirty-Gallon-Robot-part-2/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,38 +33,38 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/nav_layer_from_points" TYPE FILE FILES "/home/robot-workstation/mapping/devel/include/nav_layer_from_points/NavLayerFromPointsConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/nav_layer_from_points" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/include/nav_layer_from_points/NavLayerFromPointsConfig.h")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/nav_layer_from_points" TYPE FILE FILES "/home/robot-workstation/mapping/devel/lib/python2.7/dist-packages/nav_layer_from_points/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/nav_layer_from_points" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/python2.7/dist-packages/nav_layer_from_points/__init__.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/robot-workstation/mapping/devel/lib/python2.7/dist-packages/nav_layer_from_points/cfg")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/python2.7/dist-packages/nav_layer_from_points/cfg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/nav_layer_from_points" TYPE DIRECTORY FILES "/home/robot-workstation/mapping/devel/lib/python2.7/dist-packages/nav_layer_from_points/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/nav_layer_from_points" TYPE DIRECTORY FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/python2.7/dist-packages/nav_layer_from_points/cfg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/robot-workstation/mapping/build/depth_nav_tools/nav_layer_from_points/catkin_generated/installspace/nav_layer_from_points.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/nav_layer_from_points/catkin_generated/installspace/nav_layer_from_points.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav_layer_from_points/cmake" TYPE FILE FILES
-    "/home/robot-workstation/mapping/build/depth_nav_tools/nav_layer_from_points/catkin_generated/installspace/nav_layer_from_pointsConfig.cmake"
-    "/home/robot-workstation/mapping/build/depth_nav_tools/nav_layer_from_points/catkin_generated/installspace/nav_layer_from_pointsConfig-version.cmake"
+    "/home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/nav_layer_from_points/catkin_generated/installspace/nav_layer_from_pointsConfig.cmake"
+    "/home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/nav_layer_from_points/catkin_generated/installspace/nav_layer_from_pointsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav_layer_from_points" TYPE FILE FILES "/home/robot-workstation/mapping/src/depth_nav_tools/nav_layer_from_points/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav_layer_from_points" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/nav_layer_from_points/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav_layer_from_points" TYPE FILE FILES "/home/robot-workstation/mapping/src/depth_nav_tools/nav_layer_from_points/costmap_plugins.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav_layer_from_points" TYPE FILE FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/nav_layer_from_points/costmap_plugins.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -74,7 +74,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcostmap_layers.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/robot-workstation/mapping/devel/lib/libcostmap_layers.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libcostmap_layers.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcostmap_layers.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcostmap_layers.so")
     if(CMAKE_INSTALL_DO_STRIP)

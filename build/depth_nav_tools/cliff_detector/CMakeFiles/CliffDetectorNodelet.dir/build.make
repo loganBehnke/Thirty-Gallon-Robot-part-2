@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot-workstation/mapping/src
+CMAKE_SOURCE_DIR = /home/student/RAT/Thirty-Gallon-Robot-part-2/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot-workstation/mapping/build
+CMAKE_BINARY_DIR = /home/student/RAT/Thirty-Gallon-Robot-part-2/build
 
 # Include any dependencies generated for this target.
 include depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/depend.make
@@ -58,17 +58,17 @@ include depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/progr
 include depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/flags.make
 
 depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.o: depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/flags.make
-depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.o: /home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector/src/cliff_detector_nodelet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot-workstation/mapping/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.o"
-	cd /home/robot-workstation/mapping/build/depth_nav_tools/cliff_detector && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.o -c /home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector/src/cliff_detector_nodelet.cpp
+depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.o: /home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector/src/cliff_detector_nodelet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/RAT/Thirty-Gallon-Robot-part-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.o"
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/cliff_detector && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.o -c /home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector/src/cliff_detector_nodelet.cpp
 
 depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.i"
-	cd /home/robot-workstation/mapping/build/depth_nav_tools/cliff_detector && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector/src/cliff_detector_nodelet.cpp > CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.i
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/cliff_detector && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector/src/cliff_detector_nodelet.cpp > CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.i
 
 depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.s"
-	cd /home/robot-workstation/mapping/build/depth_nav_tools/cliff_detector && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector/src/cliff_detector_nodelet.cpp -o CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.s
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/cliff_detector && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector/src/cliff_detector_nodelet.cpp -o CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.s
 
 depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.o.requires:
 
@@ -88,221 +88,221 @@ CliffDetectorNodelet_OBJECTS = \
 # External object files for target CliffDetectorNodelet
 CliffDetectorNodelet_EXTERNAL_OBJECTS =
 
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.o
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/build.make
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /home/robot-workstation/mapping/devel/lib/libCliffDetectorNode.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libimage_geometry.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libimage_transport.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libnodeletlib.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libbondcpp.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/libPocoFoundation.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libroslib.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librospack.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librostime.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /home/robot-workstation/mapping/devel/lib/libCliffDetector.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libimage_geometry.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libimage_transport.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libnodeletlib.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libbondcpp.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/libPocoFoundation.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libroslib.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librospack.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librostime.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so: depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robot-workstation/mapping/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so"
-	cd /home/robot-workstation/mapping/build/depth_nav_tools/cliff_detector && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CliffDetectorNodelet.dir/link.txt --verbose=$(VERBOSE)
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/src/cliff_detector_nodelet.cpp.o
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/build.make
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNode.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libimage_geometry.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libimage_transport.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libnodeletlib.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libbondcpp.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/libPocoFoundation.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libroslib.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librospack.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librostime.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetector.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libimage_geometry.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libimage_transport.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libnodeletlib.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libbondcpp.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/libPocoFoundation.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libroslib.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librospack.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/librostime.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so: depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/RAT/Thirty-Gallon-Robot-part-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so"
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/cliff_detector && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CliffDetectorNodelet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/build: /home/robot-workstation/mapping/devel/lib/libCliffDetectorNodelet.so
+depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/build: /home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libCliffDetectorNodelet.so
 
 .PHONY : depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/build
 
@@ -311,10 +311,10 @@ depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/requires: dep
 .PHONY : depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/requires
 
 depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/clean:
-	cd /home/robot-workstation/mapping/build/depth_nav_tools/cliff_detector && $(CMAKE_COMMAND) -P CMakeFiles/CliffDetectorNodelet.dir/cmake_clean.cmake
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/cliff_detector && $(CMAKE_COMMAND) -P CMakeFiles/CliffDetectorNodelet.dir/cmake_clean.cmake
 .PHONY : depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/clean
 
 depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/depend:
-	cd /home/robot-workstation/mapping/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot-workstation/mapping/src /home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector /home/robot-workstation/mapping/build /home/robot-workstation/mapping/build/depth_nav_tools/cliff_detector /home/robot-workstation/mapping/build/depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/RAT/Thirty-Gallon-Robot-part-2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/RAT/Thirty-Gallon-Robot-part-2/src /home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector /home/student/RAT/Thirty-Gallon-Robot-part-2/build /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/cliff_detector /home/student/RAT/Thirty-Gallon-Robot-part-2/build/depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : depth_nav_tools/cliff_detector/CMakeFiles/CliffDetectorNodelet.dir/depend
 

@@ -1,8 +1,8 @@
-prefix=/home/robot-workstation/mapping/install
+prefix=/home/student/RAT/Thirty-Gallon-Robot-part-2/install
 
 Name: gmapping
 Description: Description of gmapping
 Version: 1.4.0
 Cflags: 
-Libs: -L/home/robot-workstation/mapping/install/lib 
+Libs: -L${prefix}/lib 
 Requires: 

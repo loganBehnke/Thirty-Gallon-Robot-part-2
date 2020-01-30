@@ -7,12 +7,6 @@ first delete the build and devel folders
 run
 
 ```
-git submodule init
-```
-
-then run
-
-```
 rosdep install --from-paths src --ignore-src --rosdistro kinetic -y
 ```
 
@@ -27,3 +21,15 @@ then run
 ```
 catkin_make
 ```
+
+install openni_launch
+```
+sudo apt install ros-kinetic-openni-launch
+```
+
+to run our tech demo first you need to source ros in the catkin_ws
+```
+source devel/setup.bash
+roslaunch src/mapping.launch
+```
+

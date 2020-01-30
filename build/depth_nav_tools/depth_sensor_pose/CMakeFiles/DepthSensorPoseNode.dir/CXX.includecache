@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/robot-workstation/mapping/devel/include/depth_sensor_pose/DepthSensorPoseConfig.h
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/include/depth_sensor_pose/DepthSensorPoseConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/robot-workstation/mapping/src/depth_nav_tools/depth_sensor_pose/include/depth_sensor_pose/depth_sensor_pose.h
+/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_sensor_pose/include/depth_sensor_pose/depth_sensor_pose.h
 ros/console.h
 -
 ros/ros.h
@@ -66,7 +66,7 @@ pcl/segmentation/sac_segmentation.h
 Eigen/Core
 -
 
-/home/robot-workstation/mapping/src/depth_nav_tools/depth_sensor_pose/include/depth_sensor_pose/depth_sensor_pose_node.h
+/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_sensor_pose/include/depth_sensor_pose/depth_sensor_pose_node.h
 mutex
 -
 ros/ros.h
@@ -92,9 +92,9 @@ depth_sensor_pose/DepthSensorPoseConfig.h
 depth_sensor_pose/depth_sensor_pose.h
 -
 
-/home/robot-workstation/mapping/src/depth_nav_tools/depth_sensor_pose/src/depth_sensor_pose_node.cpp
+/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_sensor_pose/src/depth_sensor_pose_node.cpp
 depth_sensor_pose/depth_sensor_pose_node.h
-/home/robot-workstation/mapping/src/depth_nav_tools/depth_sensor_pose/src/depth_sensor_pose/depth_sensor_pose_node.h
+/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/depth_sensor_pose/src/depth_sensor_pose/depth_sensor_pose_node.h
 
 /opt/ros/kinetic/include/cv_bridge/cv_bridge.h
 sensor_msgs/Image.h

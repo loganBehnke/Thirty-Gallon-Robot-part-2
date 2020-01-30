@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DepthSensorPoseNodelet.dir/src/depth_sensor_pose_nodelet.cpp.o"
-  "/home/robot-workstation/mapping/devel/lib/libDepthSensorPoseNodelet.pdb"
-  "/home/robot-workstation/mapping/devel/lib/libDepthSensorPoseNodelet.so"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libDepthSensorPoseNodelet.pdb"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib/libDepthSensorPoseNodelet.so"
 )
 
 # Per-language clean rules from dependency scanning.

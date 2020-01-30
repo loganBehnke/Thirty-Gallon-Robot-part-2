@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/robot-workstation/mapping/devel/include/cliff_detector/CliffDetectorConfig.h
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/include/cliff_detector/CliffDetectorConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/robot-workstation/mapping/devel/include/depth_nav_msgs/Point32List.h
+/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/include/depth_nav_msgs/Point32List.h
 string
 -
 vector
@@ -44,7 +44,7 @@ std_msgs/Header.h
 geometry_msgs/Point32.h
 -
 
-/home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector/include/cliff_detector/cliff_detector.h
+/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector/include/cliff_detector/cliff_detector.h
 ros/console.h
 -
 sensor_msgs/Image.h
@@ -80,7 +80,7 @@ cstdlib
 vector
 -
 
-/home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector/include/cliff_detector/cliff_detector_node.h
+/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector/include/cliff_detector/cliff_detector_node.h
 ros/ros.h
 -
 image_transport/image_transport.h
@@ -108,7 +108,7 @@ cliff_detector/CliffDetectorConfig.h
 cliff_detector/cliff_detector.h
 -
 
-/home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector/src/cliff_detector_node.cpp
+/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector/src/cliff_detector_node.cpp
 cliff_detector/cliff_detector_node.h
 -
 

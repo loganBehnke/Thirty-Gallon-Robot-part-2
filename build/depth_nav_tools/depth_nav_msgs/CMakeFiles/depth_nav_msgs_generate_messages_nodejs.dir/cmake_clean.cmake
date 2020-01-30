@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/depth_nav_msgs_generate_messages_nodejs"
-  "/home/robot-workstation/mapping/devel/share/gennodejs/ros/depth_nav_msgs/msg/Point32List.js"
+  "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/share/gennodejs/ros/depth_nav_msgs/msg/Point32List.js"
 )
 
 # Per-language clean rules from dependency scanning.

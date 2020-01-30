@@ -67,14 +67,14 @@ set(cliff_detector_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(cliff_detector_SOURCE_PREFIX /home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector)
-  set(cliff_detector_DEVEL_PREFIX /home/robot-workstation/mapping/devel)
+  set(cliff_detector_SOURCE_PREFIX /home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector)
+  set(cliff_detector_DEVEL_PREFIX /home/student/RAT/Thirty-Gallon-Robot-part-2/devel)
   set(cliff_detector_INSTALL_PREFIX "")
   set(cliff_detector_PREFIX ${cliff_detector_DEVEL_PREFIX})
 else()
   set(cliff_detector_SOURCE_PREFIX "")
   set(cliff_detector_DEVEL_PREFIX "")
-  set(cliff_detector_INSTALL_PREFIX /home/robot-workstation/mapping/install)
+  set(cliff_detector_INSTALL_PREFIX /home/student/RAT/Thirty-Gallon-Robot-part-2/install)
   set(cliff_detector_PREFIX ${cliff_detector_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(cliff_detector_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/robot-workstation/mapping/devel/include;/home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector/include " STREQUAL " ")
+if(NOT "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/include;/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector/include " STREQUAL " ")
   set(cliff_detector_INCLUDE_DIRS "")
-  set(_include_dirs "/home/robot-workstation/mapping/devel/include;/home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector/include")
+  set(_include_dirs "/home/student/RAT/Thirty-Gallon-Robot-part-2/devel/include;/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://ros.org/wiki/depth_nav_tools " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/robot-workstation/mapping/devel/include;/home/robot-workstation/ma
         message(FATAL_ERROR "Project 'cliff_detector' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'cliff_detector' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/robot-workstation/mapping/src/depth_nav_tools/cliff_detector/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'cliff_detector' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/student/RAT/Thirty-Gallon-Robot-part-2/src/depth_nav_tools/cliff_detector/${idir}'.  ${_report}")
     endif()
     _list_append_unique(cliff_detector_INCLUDE_DIRS ${include})
   endforeach()
@@ -123,6 +123,29 @@ foreach(library ${libraries})
     list(APPEND cliff_detector_LIBRARIES ${library})
   elseif(${library} MATCHES "^-l")
     list(APPEND cliff_detector_LIBRARIES ${library})
+  elseif(${library} MATCHES "^-")
+    # This is a linker flag/option (like -pthread)
+    # There's no standard variable for these, so create an interface library to hold it
+    if(NOT cliff_detector_NUM_DUMMY_TARGETS)
+      set(cliff_detector_NUM_DUMMY_TARGETS 0)
+    endif()
+    # Make sure the target name is unique
+    set(interface_target_name "catkin::cliff_detector::wrapped-linker-option${cliff_detector_NUM_DUMMY_TARGETS}")
+    while(TARGET "${interface_target_name}")
+      math(EXPR cliff_detector_NUM_DUMMY_TARGETS "${cliff_detector_NUM_DUMMY_TARGETS}+1")
+      set(interface_target_name "catkin::cliff_detector::wrapped-linker-option${cliff_detector_NUM_DUMMY_TARGETS}")
+    endwhile()
+    add_library("${interface_target_name}" INTERFACE IMPORTED)
+    if("${CMAKE_VERSION}" VERSION_LESS "3.13.0")
+      set_property(
+        TARGET
+        "${interface_target_name}"
+        APPEND PROPERTY
+        INTERFACE_LINK_LIBRARIES "${library}")
+    else()
+      target_link_options("${interface_target_name}" INTERFACE "${library}")
+    endif()
+    list(APPEND cliff_detector_LIBRARIES "${interface_target_name}")
   elseif(TARGET ${library})
     list(APPEND cliff_detector_LIBRARIES ${library})
   elseif(IS_ABSOLUTE ${library})
@@ -131,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/robot-workstation/mapping/devel/lib;/home/robot-workstation/multi_map_navigation/devel/lib;/home/robot-workstation/mapping/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/student/RAT/Thirty-Gallon-Robot-part-2/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
