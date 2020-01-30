@@ -1,5 +1,7 @@
 # Robot Assisted Tours (RAT)
 
+To set up a virtual macheine follow the steps in [this file](SettingUpLinuxAndROS.pdf)
+
 to install this package 
 
 first delete the build and devel folders
