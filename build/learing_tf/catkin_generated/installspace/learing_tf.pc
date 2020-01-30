@@ -1,8 +1,0 @@
-prefix=/home/robot-workstation/mapping/install
-
-Name: learing_tf
-Description: Description of learing_tf
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/robot-workstation/mapping/install/lib 
-Requires: 

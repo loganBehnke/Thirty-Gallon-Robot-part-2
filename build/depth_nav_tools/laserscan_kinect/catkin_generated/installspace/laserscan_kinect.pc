@@ -1,8 +1,0 @@
-prefix=/home/robot-workstation/mapping/install
-
-Name: laserscan_kinect
-Description: Description of laserscan_kinect
-Version: 1.0.1
-Cflags: -I/home/robot-workstation/mapping/install/include
-Libs: -L/home/robot-workstation/mapping/install/lib -lLaserScanKinect -lLaserScanKinectNode -lLaserScanKinectNodelet
-Requires: roscpp dynamic_reconfigure image_geometry image_transport nodelet sensor_msgs

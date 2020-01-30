@@ -1,2 +1,0 @@
-depth_nav_tools/cliff_detector:depth_nav_tools/depth_nav_msgs:depth_nav_tools/depth_nav_tools:depth_nav_tools/depth_sensor_pose:depth_nav_tools/laserscan_kinect:depth_nav_tools/nav_layer_from_points:odom_publisher:robot_setup_tf:slam_gmapping/gmapping:slam_gmapping/slam_gmapping
--DCATKIN_DEVEL_PREFIX=/home/robot-workstation/mapping/devel -DCMAKE_INSTALL_PREFIX=/home/robot-workstation/mapping/install -G Unix Makefiles

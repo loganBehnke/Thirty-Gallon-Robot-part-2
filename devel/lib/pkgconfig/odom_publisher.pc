@@ -1,8 +1,0 @@
-prefix=/home/robot-workstation/mapping/devel
-
-Name: odom_publisher
-Description: Description of odom_publisher
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/robot-workstation/mapping/devel/lib 
-Requires: 

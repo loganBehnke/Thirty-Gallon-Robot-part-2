@@ -1,8 +1,0 @@
-prefix=/home/robot-workstation/mapping/devel
-
-Name: gmapping
-Description: Description of gmapping
-Version: 1.4.0
-Cflags: 
-Libs: -L/home/robot-workstation/mapping/devel/lib 
-Requires: 

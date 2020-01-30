@@ -1,29 +1,34 @@
 # Robot Assisted Tours (RAT)
 
-to install this package 
+To set up a virtual macheine follow the steps in [this file](SettingUpLinuxAndROS.pdf)
 
-first delete the build and devel folders
+To install this package 
 
 run
-
-```
-git submodule init
-```
-
-then run
 
 ```
 rosdep install --from-paths src --ignore-src --rosdistro kinetic -y
 ```
 
-you should get an out put of
+You should get an out put of
 
 ```
 #All required rosdeps installed successfully
 ```
 
-then run 
+Then run 
 
 ```
 catkin_make
+```
+
+Install openni_launch
+```
+sudo apt install ros-kinetic-openni-launch
+```
+
+To run our tech demo first you need to source ros in the catkin_ws
+```
+source devel/setup.bash
+roslaunch src/mapping.launch
 ```

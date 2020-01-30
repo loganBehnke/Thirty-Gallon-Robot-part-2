@@ -1,8 +1,0 @@
-prefix=/home/robot-workstation/mapping/install
-
-Name: depth_sensor_pose
-Description: Description of depth_sensor_pose
-Version: 1.0.0
-Cflags: -I/home/robot-workstation/mapping/install/include
-Libs: -L/home/robot-workstation/mapping/install/lib -lDepthSensorPose -lDepthSensorPoseNode -lDepthSensorPoseNodelet
-Requires: roscpp dynamic_reconfigure image_geometry image_transport nodelet sensor_msgs libpcl-all
