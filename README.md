@@ -4,8 +4,6 @@ To set up a virtual macheine follow the steps in [this file](SettingUpLinuxAndRO
 
 to install this package 
 
-first delete the build and devel folders
-
 run
 
 ```
