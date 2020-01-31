@@ -30,5 +30,5 @@ sudo apt install ros-kinetic-openni-launch
 To run our tech demo first you need to source ros in the catkin_ws
 ```
 source devel/setup.bash
-roslaunch src/techDemo.launch
+roslaunch src/techDemo1.launch
 ```
