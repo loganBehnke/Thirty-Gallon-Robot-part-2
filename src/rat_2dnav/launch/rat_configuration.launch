@@ -1,0 +1,11 @@
+<launch>
+    <!-- <node pkg="sensor_node_pkg" type="sensor_node_type" name="sensor_node_name" output="screen">
+        <param name="sensor_param" value="param_value" />
+    </node> -->
+    <node pkg="odom_publisher" type="odometry_publisher" name="odom" output="screen">
+        <param name="odom_param" value="param_value" />
+    </node>
+    <node pkg="robot_setup_tf" type="tf_broadcaster" name="RAT_tf" output="screen">
+    </node>
+
+</launch> 
