@@ -1,0 +1,19 @@
+<launch>
+	<!-- joy node -->
+	<node pkg="joy" type="joy_node" name="rat_joy" respawn="true">
+		<param name="dev" type="string" value="/dev/input/js0" />
+		<param name="deadzone" value="0.23" />
+	</node>
+
+	<!-- telep joy twist -->
+	<node pkg="teleop_twist_joy" type="teleop_node" name="rat_twist" />
+
+	<!-- rat speed -->
+	<node pkg="rat_base" type="rat_speed_node" name="rat_motor_pwm" />
+
+	<!-- rosserial -->
+	<node pkg="rosserial_python" type="serial_node.py" name="arduino_link">
+		<param name="port" type="string" value="/dev/ttyACM0" />
+		<param name="baud" type="int" value="57600" />
+	</node>
+</launch>
