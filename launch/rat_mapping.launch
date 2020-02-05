@@ -66,5 +66,7 @@
         -->
         <param name="tf_map_scanmatch_transform_frame_name" value="$(arg tf_map_scanmatch_transform_frame_name)" />
     </node>
-    
+    <!-- view inputs and outputs -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find navigation_stage)/single_robot.rviz"/>
+
 </launch>
