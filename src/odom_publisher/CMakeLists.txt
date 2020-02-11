@@ -10,6 +10,7 @@ project(odom_publisher)
 find_package(catkin REQUIRED COMPONENTS
   nav_msgs
   roscpp
+  rospy
   tf
 )
 
