@@ -11,6 +11,8 @@ find_package(catkin REQUIRED COMPONENTS
   nav_msgs
   roscpp
   rospy
+  std_msgs
+  geometry_msgs
   tf
 )
 

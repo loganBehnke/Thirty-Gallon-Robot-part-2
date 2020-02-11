@@ -105,7 +105,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES rat_2dnav
-#  CATKIN_DEPENDS depth_nav_tools move_base odom_publisher robot_setup_tf
+#  CATKIN_DEPENDS move_base odom_publisher robot_setup_tf
 #  DEPENDS system_lib
 )
 

@@ -49,15 +49,12 @@
   <!-- Use doc_depend for packages you need only for building documentation: -->
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>depth_nav_tools</build_depend>
   <build_depend>move_base</build_depend>
   <build_depend>odom_publisher</build_depend>
   <build_depend>robot_setup_tf</build_depend>
-  <build_export_depend>depth_nav_tools</build_export_depend>
   <build_export_depend>move_base</build_export_depend>
   <build_export_depend>odom_publisher</build_export_depend>
   <build_export_depend>robot_setup_tf</build_export_depend>
-  <exec_depend>depth_nav_tools</exec_depend>
   <exec_depend>move_base</exec_depend>
   <exec_depend>odom_publisher</exec_depend>
   <exec_depend>robot_setup_tf</exec_depend>
