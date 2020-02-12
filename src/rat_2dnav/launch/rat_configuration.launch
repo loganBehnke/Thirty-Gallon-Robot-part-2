@@ -1,11 +1,17 @@
 <launch>
     <include file="$(find openni_launch)/launch/openni.launch" />
     <include file="$(find laserscan_kinect)/launch/laserscan.launch" />
+    <!-- old odom and base
     <node pkg="odom_publisher" type="odometry_publisher.py" name="odom" output="screen"/>
-    <node pkg="robot_setup_tf" type="tf_broadcaster" name="RAT_tf" output="screen"/>
     <node pkg="rat_base" type="rat_speed_node" name="rat_motor_pwm" />
     <node pkg="rosserial_python" type="serial_node.py" name="arduino_link">
-		<param name="port" type="string" value="/dev/ttyACM0" />
-		<param name="baud" type="int" value="57600" />
-	</node>
+      <param name="port" type="string" value="/dev/ttyACM0" />
+      <param name="baud" type="int" value="57600" />
+	  </node>
+    -->
+    <node pkg="ros_arduino_python" type="arduino_node.py" name="arduino">
+      <rosparam file="$(find ros_arduino_python)/config/my_arduino_params.yaml" command="load" />
+    </node>
+    <node pkg="robot_setup_tf" type="tf_broadcaster" name="RAT_tf" output="screen"/>
+      
 </launch> 
