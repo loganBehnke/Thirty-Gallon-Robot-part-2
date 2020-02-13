@@ -59,8 +59,8 @@
   void initMotorController() {
       pinMode(LEFT_MOTOR_PWM, OUTPUT);
       pinMode(LEFT_MOTOR_DIR, OUTPUT);
-      pinMode(R_motor_go, OUTPUT);
-      pinMode(R_motor_back, OUTPUT);
+      pinMode(RIGHT_MOTOR_PWM, OUTPUT);
+      pinMode(RIGHT_MOTOR_DIR, OUTPUT);
 
   }
   
