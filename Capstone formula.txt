@@ -1,0 +1,8 @@
+Obtain distances from 3+ anchors
+Find intersection points for the circle made by each anchor's distance circle
+Sort distances between intersections
+Remove outliers (Anything with 3x the median data point)
+Triangulate midpoint of intersections
+Generate a reference frame of a circle around the midpoint using pre-calculated margin of error
+Compare kinect data to this reference frame
+
