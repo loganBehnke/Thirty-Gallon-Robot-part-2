@@ -19,7 +19,7 @@ base_frame: base_link
 # === Robot drivetrain parameters
 wheel_diameter: 0.3302
 wheel_track: 0.6731
-encoder_resolution: 1651.2 # 64 * 25.8 for our 25.8:1 motor
+encoder_resolution: 1651.2 # 64 * 25.8 for our 25.8:1 motor gearbox combo
 gear_reduction: 1
 motors_reversed: False
 
