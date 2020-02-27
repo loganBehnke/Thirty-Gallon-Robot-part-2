@@ -41,6 +41,6 @@
     <include file="$(find rat_2dnav)/slam_gmapping.xml"/>  
 
 
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find navigation_stage)/single_robot.rviz"/>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find rat_2dnav)/single_robot.rviz"/>
     
 </launch>
