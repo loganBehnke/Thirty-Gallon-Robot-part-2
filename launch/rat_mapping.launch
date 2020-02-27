@@ -1,14 +1,4 @@
 <launch>
-    <arg name="tf_map_scanmatch_transform_frame_name" default="scanmatcher_frame"/>
-    <arg name="base_frame" default="base_link"/>
-    <arg name="odom_frame" default="base_link"/>
-    <arg name="pub_map_odom_transform" default="true"/>
-    <arg name="scan_subscriber_queue_size" default="5"/>
-    <arg name="scan_topic" default="scan"/>
-    <arg name="map_size" default="2048"/>
-
-
-
     <!-- set up the robot-->
     <include file="$(find rat_2dnav)/launch/rat_configuration.launch" />
     <!-- set up controller input -->
@@ -19,58 +9,37 @@
     <!-- telep joy twist -->
 	<node pkg="teleop_twist_joy" type="teleop_node" name="rat_twist" />
 
-    <!--Gmapping - uses the odom frame for mapping-->
-    <!--
-    <node name="slam_gmapping" pkg="gmapping" type="slam_gmapping">
+    <!-- setup move base -->
+   <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+        <param name="footprint_padding" value="0.01" />
+        <param name="controller_frequency" value="10.0" />
+        <param name="controller_patience" value="3.0" />
+
+        <param name="oscillation_timeout" value="30.0" />
+        <param name="oscillation_distance" value="0.5" />
+
+        <rosparam file="$(find rat_2dnav)/costmap_common_params.yaml" command="load" ns="global_costmap" /> 
+        <rosparam file="$(find rat_2dnav)/costmap_common_params.yaml" command="load" ns="local_costmap" />
+        <rosparam file="$(find rat_2dnav)/local_costmap_params.yaml" command="load" />
+        <rosparam file="$(find rat_2dnav)/global_costmap_params.yaml" command="load" /> 
+        <rosparam file="$(find rat_2dnav)/base_local_planner_params.yaml" command="load" />
+    </node>
+
+    <node pkg="robot_pose_ekf" type="robot_pose_ekf" name="robot_pose_ekf">
+        <param name="output_frame" value="odom_combined"/>
         <param name="base_frame" value="base_link"/>
+        <param name="freq" value="30.0"/>
+        <param name="sensor_timeout" value="1.0"/>
+        <param name="odom_used" value="true"/>
+        <param name="imu_used" value="false"/>
+        <param name="vo_used" value="false"/>
+        <param name="debug" value="false"/>
+        <param name="self_diagnose" value="false"/>
     </node>
-    -->
+    <!--Gmapping - uses the odom frame for mapping-->
+    <include file="$(find rat_2dnav)/slam_gmapping.xml"/>  
 
 
-    <!-- Hector slam - dose not use odom frame for mapping -->
-    
-    <arg name="geotiff_map_file_path" default="$(find hector_geotiff)/maps"/>
-    <node pkg="hector_mapping" type="hector_mapping" name="hector_mapping" output="screen">
-        
-        <param name="map_frame" value="map" />
-        <param name="base_frame" value="$(arg base_frame)" />
-        <param name="odom_frame" value="$(arg odom_frame)" />
-        
-
-        <param name="use_tf_scan_transformation" value="true"/>
-        <param name="use_tf_pose_start_estimate" value="false"/>
-        <param name="pub_map_odom_transform" value="$(arg pub_map_odom_transform)"/>
-
-        <param name="map_resolution" value="0.050"/>
-        <param name="map_size" value="$(arg map_size)"/>
-        <param name="map_start_x" value="0.5"/>
-        <param name="map_start_y" value="0.5" />
-        <param name="map_multi_res_levels" value="2" />
-
-        <param name="update_factor_free" value="0.4"/>
-        <param name="update_factor_occupied" value="0.9" />    
-        <param name="map_update_distance_thresh" value="0.5"/>
-        <param name="map_update_angle_thresh" value="0.6" />
-        <param name="laser_z_min_value" value = "-1.0" />
-        <param name="laser_z_max_value" value = "1.0" />
-
-        <param name="advertise_map_service" value="true"/>
-        
-        <param name="scan_subscriber_queue_size" value="$(arg scan_subscriber_queue_size)"/>
-        <param name="scan_topic" value="$(arg scan_topic)"/>
-
-        <param name="tf_map_scanmatch_transform_frame_name" value="$(arg tf_map_scanmatch_transform_frame_name)" />
-    </node>
-
-    <include file="$(find hector_geotiff)/launch/geotiff_mapper.launch">
-        <arg name="trajectory_source_frame_name" value="scanmatcher_frame"/>
-        <arg name="map_file_path" value="$(arg geotiff_map_file_path)"/>
-    </include>
-    
-
-    <!-- view inputs and outputs -->
-    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find hector_slam_launch)/rviz_cfg/mapping_demo.rviz"/>
-    <!--
     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find navigation_stage)/single_robot.rviz"/>
-    --> 
+    
 </launch>
