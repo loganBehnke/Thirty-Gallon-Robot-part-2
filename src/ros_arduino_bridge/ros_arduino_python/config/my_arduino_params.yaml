@@ -20,10 +20,6 @@ base_frame: base_link
 wheel_diameter: 0.3302
 wheel_track: 0.6731
 encoder_resolution: 1651.2 # 64 * 25.8 for our 25.8:1 motor gearbox combo
-## Testing new variables out here
-encoder_res_right: 1651
-encoder_res_lef: 1651
-##
 gear_reduction: 1
 motors_reversed: False
 
