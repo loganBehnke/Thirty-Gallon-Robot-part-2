@@ -47,6 +47,10 @@ class Arduino:
         self.baudrate = baudrate
         self.timeout = timeout
         self.encoder_count = 0
+        ## Testing out new variables
+        self.encoder_left_count = 0
+        self.encoder_right_count = 0
+        ##
         self.writeTimeout = timeout
         self.interCharTimeout = timeout / 30.
         self.motors_reversed = motors_reversed
@@ -292,8 +296,12 @@ class Arduino:
         left_revs_per_second = float(left) / (self.wheel_diameter * PI)
         right_revs_per_second = float(right) / (self.wheel_diameter * PI)
 
-        left_ticks_per_loop = int(left_revs_per_second * self.encoder_resolution * self.PID_INTERVAL * self.gear_reduction)
-        right_ticks_per_loop  = int(right_revs_per_second * self.encoder_resolution * self.PID_INTERVAL * self.gear_reduction)
+        ## Testing Wheel encoder ratio testing here
+        left_ticks_per_loop = int(left_revs_per_second * self.encoder_resolution_left * self.PID_INTERVAL * self.gear_reduction)
+        right_ticks_per_loop  = int(right_revs_per_second * self.encoder_resolution_right * self.PID_INTERVAL * self.gear_reduction)
+        ##
+        #left_ticks_per_loop = int(left_revs_per_second * self.encoder_resolution * self.PID_INTERVAL * self.gear_reduction)
+        #right_ticks_per_loop  = int(right_revs_per_second * self.encoder_resolution * self.PID_INTERVAL * self.gear_reduction)
 
         self.drive(right_ticks_per_loop , left_ticks_per_loop )
 

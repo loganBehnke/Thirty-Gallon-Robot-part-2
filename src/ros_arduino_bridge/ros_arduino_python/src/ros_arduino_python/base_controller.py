@@ -43,6 +43,10 @@ class BaseController:
         pid_params['wheel_diameter'] = rospy.get_param("~wheel_diameter", "") 
         pid_params['wheel_track'] = rospy.get_param("~wheel_track", "")
         pid_params['encoder_resolution'] = rospy.get_param("~encoder_resolution", "") 
+        # Testing new encoder variables here
+        pid_params['encoder_resolution_right'] = rospy.get_param("~encoder_res_right", "")
+        pid_params['encoder_resolution_left'] = rospy.get_param("~encoder_res_left", "")
+        #####
         pid_params['gear_reduction'] = rospy.get_param("~gear_reduction", 1.0)
         pid_params['Kp'] = rospy.get_param("~Kp", 20)
         pid_params['Kd'] = rospy.get_param("~Kd", 12)
@@ -57,13 +61,19 @@ class BaseController:
             
         # How many encoder ticks are there per meter?
         self.ticks_per_meter = self.encoder_resolution * self.gear_reduction  / (self.wheel_diameter * pi)
+        # Testing new variable stuff here
+        self.ticks_per_meter_right = self.encoder_resolution_right * self.gear_reduction / (self.wheel_diameter * pi)
+        self.ticks_per_meter_left = self.encoder_resolution_left * self.gear_reduction / (self.wheel_diameter * pi)
+        ####
         
         # What is the maximum acceleration we will tolerate when changing wheel speeds?
         self.max_accel = self.accel_limit * self.ticks_per_meter / self.rate
+        # Testing new variable stuff here
+        self.max_accel = self.accel_limit * ((self.ticks_per_meter_left + self.ticks_per_meter_right) / 2 ) / self.rate
+        ####
                 
         # Track how often we get a bad encoder count (if any)
         self.bad_encoder_count = 0
-                        
         now = rospy.Time.now()    
         self.then = now # time for determining dx/dy
         self.t_delta = rospy.Duration(1.0 / self.rate)
@@ -108,6 +118,11 @@ class BaseController:
         self.wheel_diameter = pid_params['wheel_diameter']
         self.wheel_track = pid_params['wheel_track']
         self.encoder_resolution = pid_params['encoder_resolution']
+        # Testing new encoder variables here
+        self.encoder_resolution_right = pid_params['encoder_resolution_right']
+        self.encoder_resolution_left = pid_params['encoder_resolution_left']
+        #####
+        # Testing Code
         self.gear_reduction = pid_params['gear_reduction']
         
         self.Kp = pid_params['Kp']
