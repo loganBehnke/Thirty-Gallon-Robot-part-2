@@ -42,7 +42,7 @@ Visualization Manager:
       Color: 0; 0; 255
       Enabled: true
       Name: Robot Footprint
-      Topic: /move_base/local_costmap/footprint
+      Topic: /move_base_node/local_costmap/footprint
       Value: true
     - Alpha: 1
       Buffer Length: 1
@@ -56,7 +56,7 @@ Visualization Manager:
         X: 0
         Y: 0
         Z: 0
-      Topic: /move_base/TrajectoryPlannerROS/global_plan
+      Topic: /move_base_node/TrajectoryPlannerROS/global_plan
       Value: true
     - Alpha: 1
       Buffer Length: 1
@@ -70,7 +70,7 @@ Visualization Manager:
         X: 0
         Y: 0
         Z: 0
-      Topic: /move_base/TrajectoryPlannerROS/local_plan
+      Topic: /move_base_node/TrajectoryPlannerROS/local_plan
       Value: true
     - Alpha: 1
       Buffer Length: 1
@@ -84,7 +84,7 @@ Visualization Manager:
         X: 0
         Y: 0
         Z: 0
-      Topic: /move_base/NavfnROS/plan
+      Topic: /move_base_node/NavfnROS/plan
       Value: true
     - Arrow Length: 0.300000012
       Class: rviz/PoseArray
@@ -99,7 +99,7 @@ Visualization Manager:
       Draw Behind: false
       Enabled: false
       Name: Global Costmap
-      Topic: /move_base/global_costmap/costmap
+      Topic: /move_base_node/global_costmap/costmap
       Value: false
     - Alpha: 0.699999988
       Class: rviz/Map
@@ -107,7 +107,7 @@ Visualization Manager:
       Draw Behind: false
       Enabled: true
       Name: Local Costmap
-      Topic: /move_base/local_costmap/costmap
+      Topic: /move_base_node/local_costmap/costmap
       Value: true
     - Alpha: 1
       Autocompute Intensity Bounds: true
@@ -134,7 +134,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.100000001
       Style: Flat Squares
-      Topic: /scan
+      Topic: /base_scan
       Use Fixed Frame: true
       Use rainbow: true
       Value: true

@@ -4,9 +4,9 @@ TrajectoryPlannerROS:
   max_vel_theta: 1.0 #The maximum rotational velocity allowed for the base in radians/sec
   min_in_place_vel_theta: 0.4 #The minimum rotational velocity allowed for the base while performing in-place rotations in radians/sec
 
-  acc_lim_theta: 0.0125 #The rotational acceleration limit of the robot in radians/sec^2
-  acc_lim_x: 0.0125 #The x acceleration limit of the robot in meters/sec^2
-  acc_lim_y: 0 #The y acceleration limit of the robot in meters/sec^2
+  acc_lim_theta: 3.2 #The rotational acceleration limit of the robot in radians/sec^2
+  acc_lim_x: 2.5 #The x acceleration limit of the robot in meters/sec^2
+  acc_lim_y: 2.5 #The y acceleration limit of the robot in meters/sec^2
 
   holonomic_robot: false
   #Determines whether velocity commands are generated for a holonomic or non-holonomic robot. For holonomic robots, strafing velocity commands may be issued to the base. For non-holonomic robots, no strafing velocity commands will be issued.
