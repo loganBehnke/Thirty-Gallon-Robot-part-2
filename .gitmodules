@@ -1,0 +1,3 @@
+[submodule "RAT_Gui"]
+	path = RAT_Gui
+	url = https://github.com/paarongiroux/RAT_Gui.git
