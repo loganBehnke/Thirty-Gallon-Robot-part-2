@@ -23,7 +23,7 @@ __status__ = "Prototype"
 
 
 
-def displayReq(an_interface_list, strenghReq):
+def displayReq(an_interface_list, strenghReq, verboseFlag = False):
     """
     Displays all scanned connections and routers in currently
     scanned list. 
@@ -35,15 +35,18 @@ def displayReq(an_interface_list, strenghReq):
         router['Signal Level'] = abs(int(router['Signal Level']))
         if((router['Name'] == "NAU" or router['Name'] == "NAU Guest") and router['Signal Level'] >= strenghReq):
             router['Signal Level'] = str(router['Signal Level'])
-            print "\n================="
+            if(verboseFlag):
+                print "\n================="
             #print "Signal Strength: {}\nRequired: {}\n".format(router["Signal Level"], strenghReq)
             for cell in router:
                 if (cell == "Frequency" or cell == "Signal Level" or
                     cell == "Name" or cell == "Channel" or cell == "Address"):
-                    print "{}: {}".format(cell, router[cell])
                     returnStr = returnStr + router[cell] + ","
+                    if(verboseFlag):
+                        printCells(cell, router[cell])
                 #print "{}: {}".format(cell, router[cell])
-            print "================\n"
+            if(verboseFlag):
+                print "================\n"
     return returnStr
 
 
@@ -64,6 +67,12 @@ def displayAll(an_interface_list):
             #print "{}: {}".format(cell, router[cell])
         print "================\n"
     return returnStr
+
+
+def printCells(cellTitle, cellValue):
+    
+    print "{}: {}".format(cellTitle, cellValue)
+    
 
 
 def stringToList(a_list_of_strings, max_list_size):
@@ -96,6 +105,7 @@ def runScan():
     parser = argparse.ArgumentParser(description = 'A WiFi Scanner parser used for file configurations')
     parser.add_argument("--fileName", type = str, required = True, help = "Used to name the output CSV file (Required)")
     parser.add_argument("--sigLimit", type = int, default = 50, help = "Minimum signal strength requested (i.e. 50, 72, 90). Default = 50")
+    parser.add_argument("--verbose", action = "store_true", help = "Displays router info in the terminal")
     args = parser.parse_args()
 
     # Initialize Variables
@@ -117,7 +127,7 @@ def runScan():
     print("\nScan completed")
 
     # Organize Data into lists and strings
-    stringList = displayReq(routerList, args.sigLimit)
+    stringList = displayReq(routerList, args.sigLimit, args.verbose)
     routerList = stringToList(stringList, defaultListLength)
 
     # Write to CSV file
