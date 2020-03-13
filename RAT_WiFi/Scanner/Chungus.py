@@ -23,10 +23,10 @@ interList = []
 
 def main():
     # run wifi scan
-    wifi.runScan()
-    
+    fileName = wifi.runScan()
+
     # open csv file of recieved routers & signal strenghts
-    readSignalStr()
+    readSignalStr(fileName)
     get_distances()
     remove_FSPL_outliers()
     print(dist)
@@ -42,10 +42,10 @@ def main():
 #    print(mid)
     pass
 
-def readSignalStr():
+def readSignalStr(fileName):
     # read in signal strengths with mac addresses
     # use the file format that George uses, and read into routerDict
-    with open ('routerlist2.csv', newline='') as csvfile:
+    with open (fileName, newline='') as csvfile:
         routerReader = csv.reader(csvfile, delimiter=",")
         headers = next(routerReader)
         for row in routerReader:

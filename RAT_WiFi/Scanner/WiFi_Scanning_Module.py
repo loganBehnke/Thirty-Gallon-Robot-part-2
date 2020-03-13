@@ -29,7 +29,6 @@ def displayReq(an_interface_list, strenghReq, verboseFlag = False):
     scanned list. 
     Separators added for readability.
     """
-    #print "Length of interface list: {}".format(len(an_interface_list))
     returnStr = ""
     for router in an_interface_list:
         router['Signal Level'] = abs(int(router['Signal Level']))
@@ -37,14 +36,12 @@ def displayReq(an_interface_list, strenghReq, verboseFlag = False):
             router['Signal Level'] = str(router['Signal Level'])
             if(verboseFlag):
                 print "\n================="
-            #print "Signal Strength: {}\nRequired: {}\n".format(router["Signal Level"], strenghReq)
             for cell in router:
                 if (cell == "Frequency" or cell == "Signal Level" or
                     cell == "Name" or cell == "Channel" or cell == "Address"):
                     returnStr = returnStr + router[cell] + ","
                     if(verboseFlag):
                         printCells(cell, router[cell])
-                #print "{}: {}".format(cell, router[cell])
             if(verboseFlag):
                 print "================\n"
     return returnStr
@@ -70,7 +67,6 @@ def displayAll(an_interface_list):
 
 
 def printCells(cellTitle, cellValue):
-    
     print "{}: {}".format(cellTitle, cellValue)
     
 
@@ -132,6 +128,9 @@ def runScan():
 
     # Write to CSV file
     writeToFile(routerList, fileName)
+
+    # Return file name
+    return fileName
 
     #print(stringList)
     
