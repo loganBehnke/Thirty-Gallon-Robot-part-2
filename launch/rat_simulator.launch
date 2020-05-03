@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find navigation_stage)/launch/move_base_amcl_10cm.launch" />
+    <node pkg="goal_publisher" type="goalPublisher.py" name="GoalPub" />
+    <node pkg="goal_publisher" type="goalSubscriber.py" name="GoalSub" />
+</launch>
