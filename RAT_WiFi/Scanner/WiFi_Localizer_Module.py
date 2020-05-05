@@ -51,7 +51,7 @@ def readSignalStr():
                 continue
 
 def readCoordinates():                     
-    with open ('routerlist2.csv', newline='') as csvfile:
+    with open ('output.csv', newline='') as csvfile:
         mapReader = csv.reader(csvfile, delimiter=",")
         headers = mapReader.next()
         for row in mapReader:
