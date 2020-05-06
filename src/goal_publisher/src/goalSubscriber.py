@@ -20,6 +20,7 @@ if __name__ == '__main__':
             #s.connect(('rat-tracker.herokuapp.com', 1234))
             msgs = '{}, {}'.format(round(trans[0],4), round(trans[1], 4))
             print(msgs)
+            rospy.loginfo(msgs)
             #s.send(msgs)
             #s.shutdown(1)
             #s.close()

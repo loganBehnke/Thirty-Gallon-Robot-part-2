@@ -1,0 +1,458 @@
+{
+    "buildingName": "engineering",
+    "floors":{
+        "1st": [
+            {
+                "roomNum": "elevator",
+                "coords" : [
+                    "xlocation": 1,
+                    "ylocation": 1
+                ]
+            },
+            {
+                "roomNum": 101,
+                "coords" : {
+                    "xlocation": 2,
+                    "ylocation": 2
+                }
+            },
+            {
+                "roomNumber": 102,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 103,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 104,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 105,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 106,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 107,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 108,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 109,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 110,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 111,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 112,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 113,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 114,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 115,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 116,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 117,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 118,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 119,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 120,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 121,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 122,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            }
+        ],
+        "2nd":[
+            {
+                "roomNum": 201,
+                "coords" : {
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 202,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 203,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 204,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 205,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 206,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 207,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 208,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 209,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 210,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 211,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 212,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 213,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 214,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 215,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 216,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 217,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 218,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 219,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 220,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 221,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 222,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 223,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 224,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 225,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 226,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 227,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 228,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 229,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 230,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 231,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 232,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 233,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 234,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 235,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 236,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 237,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 238,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 239,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 240,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            },
+            {
+                "roomNumber": 241,
+                "coordinates":{
+                    "xlocation": 53,
+                    "ylocation": 53
+                }
+            }
+        ],
+        "3rd":[]
+    }
+}
