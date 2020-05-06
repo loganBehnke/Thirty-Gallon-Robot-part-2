@@ -22,7 +22,7 @@ __credits__ = ["George Cadel-Munoz"]
 __version__ = "1.05"
 __maintainer__ = "George Cadel-Munoz"
 __email__ = "gec68@nau.edu"
-__status__ = "Prototype"
+__status__ = "Final Version"
 
 
 
@@ -46,8 +46,8 @@ def displayReq(an_interface_list, strengthReq, verboseFlag = False):
     for router in an_interface_list:
         router['Signal Level'] = abs(int(router['Signal Level']))
         ##### Replace this if statement below to enable ALL signal searching
-        #if((router['Name'] == "NAU" or router['Name'] == "NAU Guest") and router['Signal Level'] >= strengthReq):
-        if(router['Signal Level'] >= strengthReq):
+        if((router['Name'] == "NAU" or router['Name'] == "NAU Guest") and router['Signal Level'] >= strengthReq):
+        #if(router['Signal Level'] >= strengthReq):
             router['Signal Level'] = str(router['Signal Level'])
             if(verboseFlag):
                 print "\n================="
