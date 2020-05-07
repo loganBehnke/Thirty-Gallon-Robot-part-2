@@ -1,0 +1,8 @@
+<launch>
+    <include file="$(find rat_2dnav)/launch/rat_configuration.launch" />
+    <include file="$(find rat_2dnav)/launch/move_base.launch" />
+    
+    <!-- view inputs and outputs -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find navigation_stage)/single_robot.rviz"/>
+
+</launch>
